@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('code from scm') {
             steps {
-                git 'https://github.com/poorna162/Poorna.git'
+                git 'https://github.com/poorna162/G_cloud4c.git'
             }
         }
         stage('building the code') {
